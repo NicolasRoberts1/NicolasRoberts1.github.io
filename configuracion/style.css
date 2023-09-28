@@ -372,7 +372,7 @@ form button{
         height: 40vh;
     }
     .navBar a{
-        width: 18vw;
+        width: 25%;
     }
     .formulario_contacto img{
         width: 100px;
@@ -414,4 +414,45 @@ form button{
         top:45%;
     }
 }
-
+@media (max-width:400px){
+    .encabezado{
+        flex-direction: column;
+        height: 55vh;
+    }
+    .encabezado h1{
+        top:80%;
+        width: 70vw;
+        height: 6.5vh;
+    }
+    .navBar a{
+        width: 25%;
+    }
+    .container img{
+        height: 350px;
+    }
+    .formulario_contacto{
+        flex-direction: column;
+    }
+    .formulario_contacto img{
+        width: 80px;
+        height: 80px;
+    }
+}
+@media (max-width:290px){
+    .encabezado{
+        flex-direction: column;
+        height: 55vh;
+    }
+    .encabezado h1{
+        top:80%;
+        width: 70vw;
+        height: 12vh;
+    }
+    .container img{
+        height: 250px;
+    }
+    .formulario_contacto img{
+        width: 80px;
+        height: 80px;
+    }
+}
