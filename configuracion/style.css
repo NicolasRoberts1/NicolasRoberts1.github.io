@@ -12,6 +12,7 @@
         transform: scale(1);
     }
 }
+
 .encabezado{
     display: flex;
     flex-wrap: wrap;
@@ -193,9 +194,12 @@ footer p img{
     object-fit: contain;
     height: 50%;
     padding-bottom: 15px;
-    border-bottom: 2px solid black;
 }
-
+.divisor{
+    color: black;
+    border: 1px solid black;
+    margin-top: -10px;
+}
 .carta_texto{
     display: flex;
     flex-direction: column;
@@ -211,6 +215,10 @@ footer p img{
     background-color: black;
     color:#ffdac8;
     transition:all 0.5s ease-in-out;
+}
+.carta:hover .divisor{
+    color: #ffdac8;
+    border: 1px solid #ffdac8;
 }
 
 /*PRODUCTOS*/
@@ -297,7 +305,6 @@ footer p img{
     height: 350px;
     align-self: center;
     padding-bottom: 8px;
-    border-bottom: 1.5px solid black;
 }
 .producto:hover{
     transform: scale(1.1);
@@ -367,6 +374,9 @@ form button{
         width: 50vw;
         height: 6.5vh;
     }
+    .container img{
+        height: 350px;
+    }
     .navBar{
         flex-direction: column;
         height: 40vh;
@@ -414,7 +424,7 @@ form button{
         top:45%;
     }
 }
-@media (max-width:400px){
+@media (max-width:430px){
     .encabezado{
         flex-direction: column;
         height: 55vh;
@@ -428,7 +438,7 @@ form button{
         width: 25%;
     }
     .container img{
-        height: 350px;
+        height: 330px;
     }
     .formulario_contacto{
         flex-direction: column;
