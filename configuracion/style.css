@@ -399,12 +399,12 @@ form button{
     }
     footer a{
         top:-20%;
-        left:40%;
+        left:38%;
         transform: translate(-50%, -50%);
     }
     footer p{
         top:80%;
-        left: 53%;
+        left: 54%;
         transform: translate(-50%, -50%);
     }
     .producto_nav{
@@ -417,8 +417,11 @@ form button{
     }
     .volver{
         width: 18vw;
-        left:40%;
+        /* left:40%;*/
         top:70%;
+        margin-left: auto;
+        margin-right: auto;
+        left: auto;
     }
     .galeria{
         top:45%;
